@@ -24,8 +24,16 @@
             ],
             "styles": [
               "src/styles.css"
+             
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/xlsx/dist/xlsx.full.min.js",
+              "node_modules/xlsx/dist/xlsx.core.min.js",
+              "node_modules/jquery/dist/jquery.min.js"
+             
+              
+            ]
+
           },
           "configurations": {
             "production": {
